@@ -41,7 +41,7 @@ fun TelaSobre(
         ) {
 
             Text(
-                text = "Sobre o SchoolBrary",
+                text = "o SchoolBrary",
                 style = MaterialTheme.typography.headlineMedium,
                 color = Vinho
             )
@@ -79,20 +79,8 @@ fun TelaSobre(
 
                     Spacer(modifier = Modifier.height(12.dp))
 
-                    Text(
-                        text = "Como utilizar",
-                        style = MaterialTheme.typography.titleMedium,
-                        color = Vinho
-                    )
 
-                    Text(
-                        text = "1. Na tela inicial, veja as matérias cadastradas.\n" +
-                                "2. Clique em Cadastrar matéria para adicionar uma nova.\n" +
-                                "3. Preencha todos os campos e clique em Salvar matéria.\n" +
-                                "4. Clique em Ver detalhes para consultar as informações.\n" +
-                                "5. Use Sobre / Ajuda para consultar estas instruções e conhecer a gente.\n",
-                        color = Marrom
-                    )
+
                 }
             }
 
@@ -134,15 +122,7 @@ fun TelaSobre(
                 Text("Compartilhar aplicativo")
             }
 
-            OutlinedButton(
-                onClick = voltar,
-                modifier = Modifier.fillMaxWidth(),
-                colors = ButtonDefaults.outlinedButtonColors(
-                    contentColor = Vinho
-                )
-            ) {
-                Text("Voltar")
+
             }
         }
     }
-}
